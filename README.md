@@ -1,28 +1,26 @@
 # spotify-song-popularity-prediction
-# 🎧 Tuned for Fame: Predicting Spotify Success
+# 🎧 Tuned for Fame: Predicting Spotify Song Success
 
-This project uses machine learning to predict the popularity of Spotify songs based on audio features like danceability, energy, tempo, etc.
+A machine learning project to classify Spotify songs as "popular" or "not popular" using audio features like danceability, energy, and tempo.
 
-## 🔍 Dataset
-- Source: [Spotify Tracks Dataset on Kaggle](https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset)
-- Size: 114,000+ songs with 21 features
+## 📌 Overview
+- **Dataset**: [Spotify Tracks Dataset](https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset)
+- **Records**: 114,000+ songs
+- **Target**: Binary label (`popular` = 1 if popularity ≥ 60)
 
 ## 🧠 Model
-- **Algorithm**: Random Forest Classifier
-- **Accuracy**: **93.28%**
-- **Target**: Binary label (`popular` = 1 if popularity >= 60)
+- Algorithm: **Random Forest Classifier**
+- Accuracy: **93.28%**
+- Libraries: `pandas`, `sklearn`, `matplotlib`, `seaborn`
 
 ## 📊 Features Used
-- Audio-based features: `danceability`, `energy`, `tempo`, `valence`, etc.
-- Engineered new target column for classification
+- Audio features: `danceability`, `energy`, `tempo`, `valence`, etc.
+- Dropped metadata like `track_id`, `album_name`, etc.
 
-## 🔧 Tools & Libraries
-- Python, Pandas, Scikit-learn, Matplotlib, Seaborn
+## 📁 Files
+- [`tuned-for-fame-predicting-spotify-success.ipynb`](./tuned-for-fame-predicting-spotify-success.ipynb): Full notebook with EDA + model
 
-## 📁 Notebook
-See [`tuned-for-fame-predicting-spotify-success.ipynb`](./tuned-for-fame-predicting-spotify-success.ipynb)
+## 👩‍💻 Author
+**Swati Nain**  
+[LinkedIn](https://linkedin.com/in/swatinain)
 
----
-
-**Author**: Swati Nain  
-**LinkedIn**: [linkedin.com/in/swatinain](https://linkedin.com/in/swatinain)  
